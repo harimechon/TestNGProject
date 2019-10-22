@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="Address" value="176C5jkknataraja"/>
+  <parameter name="FirstName" value="Hari"/>
+  <parameter name="Phone" value="8754949406"/>
+  <parameter name="LastName" value="Prasath"/>
+  <parameter name="EmailAddress" value="harimech18@gmail.com"/>
+  <parameter name="Password" value="12345678"/>
+  <parameter name="ConfirmPassword" value="12345678"/>
+  <test name="Test(failed)" preserve-order="true">
+    <parameter name="Address" value="176C5jkknataraja"/>
+    <parameter name="FirstName" value="Hari"/>
+    <parameter name="Phone" value="8754949406"/>
+    <parameter name="LastName" value="Prasath"/>
+    <parameter name="EmailAddress" value="harimech18@gmail.com"/>
+    <parameter name="Password" value="12345678"/>
+    <parameter name="ConfirmPassword" value="12345678"/>
+    <classes>
+      <class name="org.test.Sample">
+        <methods>
+          <include name="test1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- org.test.Sample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
